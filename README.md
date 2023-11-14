@@ -1,40 +1,40 @@
 # **GitHub-Actions**
 
->[I. Git](#I.-git)
+>[1. Git](#git)
 >
->[II. GitHub](#II.-github)
+>[2. GitHub](#github)
 >
->[III. Git Repositories](#III.-git-repositories)
+>[3. Git Repositories](#git-repositories)
 >
->[IV. Working with Commits](#IV.-working-with-commits)
+>[4. Working with Commits](#working-with-commits)
 >
->[V. Understanding Staging](#V.-understanding-staging)
+>[5. Understanding Staging](#understanding-staging)
 >
->[VI. Key Commands](#VI.-key-commands)
+>[6. Key Commands](#key-commands)
 >
->[VII. Forking & Pull Requests](#VII.-forking-and-pull-requests)
+>[7. Forking & Pull Requests](#forking-and-pull-requests)
 >
->[VIII. GitHub Actions Fundamentals](#VIII.-github-actions-fundamentals)
+>[8. GitHub Actions Fundamentals](#github-actions-fundamentals)
 >
->[IX. Actions](#IX.-actions)
+>[9. Actions](#IX.-actions)
 >
->[X. Cancelling & Skipping Workflow Runs](#X.-cancelling-and-skipping-workflow-runs)
+>[10. Cancelling & Skipping Workflow Runs](#cancelling-and-skipping-workflow-runs)
 >
->[XI. Job Data & Outputs](#XI.-job-data-and-outputs)
+>[11. Job Data & Outputs](#job-data-and-outputs)
 >
->[XII. Environment Variables & Secrets](#XII.-environment-variables-and-secrets)
+>[12. Environment Variables & Secrets](#environment-variables-and-secrets)
 >
->[XIII. Controlling Execution Flow](#XIII.-controlling-execution-flow)
+>[13. Controlling Execution Flow](#controlling-execution-flow)
 >
->[XIV. Using Containers](#XIV.-using-containers)
+>[14. Using Containers](#using-containers)
 >
->[XV. Building Custom Actions](#XV.-building-custom-actions)
+>[15. Building Custom Actions](#building-custom-actions)
 >
->[XVI. Types of Custom Actions](#XVI.-types-of-custom-actions)
+>[16. Types of Custom Actions](#types-of-custom-actions)
 >
->[XVII. Permissions & Security](#XVII.-permissions-and-security)
+>[17. Permissions & Security](#permissions-and-security)
 >
->[XVIII. Links & Commands](#XVIII.-links-and-commands)
+>[18. Links & Commands](#links-and-commands)
 
 ---
 
