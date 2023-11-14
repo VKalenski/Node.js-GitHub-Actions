@@ -38,7 +38,7 @@
 
 ---
 
-### **I. Git**
+### **Git**
 
 Git is a (free) version control system (tool) for managing source code changes
 - Save code snapshots ("commits");
@@ -51,7 +51,7 @@ With Git, you can easily roll back to older code snapshots or develop new featur
 
 ---
 
-### **II. GitHub**
+### **GitHub**
 
 GitHub is a cloud Git repository & services provider. Store & manage Git repositories.
 
@@ -75,7 +75,7 @@ GitHub is a cloud Git repository & services provider. Store & manage Git reposit
 
 ---
 
-### **III. Git Repositories**
+### **Git Repositories**
 
 1. **Git features can be used in projects with Git repositories:**
 - A repository is a folder used by Git to track all changes of a given project: Git commands require a repository in a project;
@@ -92,7 +92,7 @@ GitHub is a cloud Git repository & services provider. Store & manage Git reposit
 
 ---
 
-### **IV. Working with Commits**
+### **Working with Commits**
 
 Commits are "code snapshots".
 
@@ -121,7 +121,7 @@ git reset --hard <id>
 
 ---
 
-### **V. Understanding Staging**
+### **Understanding Staging**
 
 Staging controls which changes are part of a commit
 - With staging, you can make sure that not all code changes made are added to a snapshot;
@@ -131,7 +131,7 @@ Staging controls which changes are part of a commit
 
 ---
 
-### **VI. Key Commands**
+### **Key Commands**
 
 |Commands|Descriptions|
 |:--|:--|
@@ -148,7 +148,7 @@ Staging controls which changes are part of a commit
 
 ---
 
-### **VII. Forking and Pull Requests**
+### **Forking and Pull Requests**
 
 1. **Repository Forking:**
 - Creates a standalone copy of a repository;
@@ -163,7 +163,7 @@ Staging controls which changes are part of a commit
 
 ---
 
-### **VIII. GitHub Actions Fundamentals**
+### **GitHub Actions Fundamentals**
 
 Key Elements: Workflows, Jobs, Steps.
 
@@ -188,7 +188,7 @@ Key Elements: Workflows, Jobs, Steps.
 
 ---
 
-### **IX. Actions**
+### **Actions**
 
 1. **Action:**
 - A (custom) application that performs a (typically complex) frequently repeated task;
@@ -208,7 +208,7 @@ Key Elements: Workflows, Jobs, Steps.
 
 ---
 
-### **X. Cancelling and Skipping Workflow Runs**
+### **Cancelling and Skipping Workflow Runs**
 
 1. **Cancelling:**
 - By default, Workflows get cancelled if Jobs fail;
@@ -224,7 +224,7 @@ Key Elements: Workflows, Jobs, Steps.
 
 ---
 
-### **XI. Job Data and Outputs**
+### **Job Data and Outputs**
 
 1. **Artifacts:**
 - Jobs often product assets that should be shared or analyzed;
@@ -249,7 +249,7 @@ Key Elements: Workflows, Jobs, Steps.
 
 ---
 
-### **XII. Environment Variables and Secrets**
+### **Environment Variables and Secrets**
 
 1. **Environment Variables:**
 - Dynamic values used in code (e.g., database name);
@@ -275,7 +275,7 @@ Key Elements: Workflows, Jobs, Steps.
 
 ---
 
-### **XIII. Controlling Execution Flow**
+### **Controlling Execution Flow**
 
 1. **Conditional Jobs & Steps:**
 - Control Step or Job execution with if & dynamic expressions
@@ -311,7 +311,7 @@ Key Elements: Workflows, Jobs, Steps.
 
 ---
 
-### **XIV. Using Containers**
+### **Using Containers**
 
 1. **Containers:**
 - Packages of code + execution environment;
@@ -337,7 +337,7 @@ Key Elements: Workflows, Jobs, Steps.
 
 ---
 
-### **XV. Building Custom Actions**
+### **Building Custom Actions**
 
 1. **Simplify Workflow Steps:**
 - Instead of writing multiple (possibly very complex) Step definitions, you can build and use a single custom Action;
@@ -351,7 +351,7 @@ Key Elements: Workflows, Jobs, Steps.
 
 ---
 
-### **XVI. Types of Custom Actions**
+### **Types of Custom Actions**
 
 1. **What & Why?**
 - Simplify Workflows & avoid repeated Steps;
@@ -382,7 +382,7 @@ Key Elements: Workflows, Jobs, Steps.
 
 ---
 
-### **XVII. Permissions and Security**
+### **Permissions and Security**
 
 1. **Script Injection:**
 - A value, set outside a Workflow, is used in a Workflow;
@@ -403,7 +403,7 @@ Key Elements: Workflows, Jobs, Steps.
 
 ---
 
-### **XVIII. Links and Commands**
+### **Links and Commands**
 
 ```
 git add remote https://vilislavkalenski@github.com/...
