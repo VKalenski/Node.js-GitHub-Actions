@@ -12,17 +12,17 @@
 >
 >[6. Key Commands](#key-commands)
 >
->[7. Forking & Pull Requests](#forking-&-pull-requests)
+>[7. Forking & Pull Requests](#forking-and-pull-requests)
 >
 >[8. GitHub Actions Fundamentals](#github-actions-fundamentals)
 >
 >[9. Actions](#actions)
 >
->[10. Cancelling & Skipping Workflow Runs](#cancelling-&-skipping-workflow-runs)
+>[10. Cancelling & Skipping Workflow Runs](#cancelling-and-skipping-workflow-runs)
 >
->[11. Job Data & Outputs](#job-data-&-outputs)
+>[11. Job Data & Outputs](#job-data-and-outputs)
 >
->[12. Environment Variables & Secrets](#environment-variables-&-secrets)
+>[12. Environment Variables & Secrets](#environment-variables-and-secrets)
 >
 >[13. Controlling Execution Flow](#controlling-execution-flow)
 >
@@ -32,9 +32,9 @@
 >
 >[16. Types of Custom Actions](#types-of-custom-actions)
 >
->[17. Permissions & Security](#permissions-&-security)
+>[17. Permissions & Security](#permissions-and-security)
 >
->[18. Links & Commands](#links-&-commands)
+>[18. Links & Commands](#links-and-commands)
 
 ---
 
@@ -148,7 +148,7 @@ Staging controls which changes are part of a commit
 
 ---
 
-### **Forking & Pull Requests**
+### **Forking and Pull Requests**
 
 1. **Repository Forking:**
 - Creates a standalone copy of a repository;
@@ -208,7 +208,7 @@ Key Elements: Workflows, Jobs, Steps.
 
 ---
 
-### **Cancelling & Skipping Workflow Runs**
+### **Cancelling and Skipping Workflow Runs**
 
 1. **Cancelling:**
 - By default, Workflows get cancelled if Jobs fail;
@@ -224,7 +224,7 @@ Key Elements: Workflows, Jobs, Steps.
 
 ---
 
-### **Job Data & Outputs**
+### **Job Data and Outputs**
 
 1. **Artifacts:**
 - Jobs often product assets that should be shared or analyzed;
@@ -249,7 +249,7 @@ Key Elements: Workflows, Jobs, Steps.
 
 ---
 
-### **Environment Variables & Secrets**
+### **Environment Variables and Secrets**
 
 1. **Environment Variables:**
 - Dynamic values used in code (e.g., database name);
@@ -380,7 +380,7 @@ Key Elements: Workflows, Jobs, Steps.
 
 ---
 
-### **Permissions & Security**
+### **Permissions and Security**
 
 1. **Script Injection:**
 - A value, set outside a Workflow, is used in a Workflow;
@@ -401,7 +401,7 @@ Key Elements: Workflows, Jobs, Steps.
 
 ---
 
-### **Links & Commands**
+### **Links and Commands**
 
 ```
 git add remote https://vilislavkalenski@github.com/...
