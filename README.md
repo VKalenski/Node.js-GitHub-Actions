@@ -16,7 +16,7 @@
 >
 >[8. GitHub Actions Fundamentals](#github-actions-fundamentals)
 >
->[9. Actions](#IX.-actions)
+>[9. Actions](#actions)
 >
 >[10. Cancelling & Skipping Workflow Runs](#cancelling-and-skipping-workflow-runs)
 >
