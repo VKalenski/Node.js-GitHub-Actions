@@ -1,44 +1,44 @@
 # **GitHub-Actions**
 
->[1. Git](#git)
+>[I. Git](#git)
 >
->[2. GitHub](#github)
+>[II. GitHub](#github)
 >
->[3. Git Repositories](#git-repositories)
+>[III. Git Repositories](#git-repositories)
 >
->[4. Working with Commits](#working-with-commits)
+>[IV. Working with Commits](#working-with-commits)
 >
->[5. Understanding Staging](#understanding-staging)
+>[V. Understanding Staging](#understanding-staging)
 >
->[6. Key Commands](#key-commands)
+>[VI. Key Commands](#key-commands)
 >
->[7. Forking & Pull Requests](#forking-and-pull-requests)
+>[VII. Forking & Pull Requests](#forking-and-pull-requests)
 >
->[8. GitHub Actions Fundamentals](#github-actions-fundamentals)
+>[VIII. GitHub Actions Fundamentals](#github-actions-fundamentals)
 >
->[9. Actions](#actions)
+>[IX. Actions](#actions)
 >
->[10. Cancelling & Skipping Workflow Runs](#cancelling-and-skipping-workflow-runs)
+>[X. Cancelling & Skipping Workflow Runs](#cancelling-and-skipping-workflow-runs)
 >
->[11. Job Data & Outputs](#job-data-and-outputs)
+>[XI. Job Data & Outputs](#job-data-and-outputs)
 >
->[12. Environment Variables & Secrets](#environment-variables-and-secrets)
+>[XII. Environment Variables & Secrets](#environment-variables-and-secrets)
 >
->[13. Controlling Execution Flow](#controlling-execution-flow)
+>[XIII. Controlling Execution Flow](#controlling-execution-flow)
 >
->[14. Using Containers](#using-containers)
+>[XIV. Using Containers](#using-containers)
 >
->[15. Building Custom Actions](#building-custom-actions)
+>[XV. Building Custom Actions](#building-custom-actions)
 >
->[16. Types of Custom Actions](#types-of-custom-actions)
+>[XVI. Types of Custom Actions](#types-of-custom-actions)
 >
->[17. Permissions & Security](#permissions-and-security)
+>[XVII. Permissions & Security](#permissions-and-security)
 >
->[18. Links & Commands](#links-and-commands)
+>[XVIII. Links & Commands](#links-and-commands)
 
 ---
 
-### **Git**
+### **I. Git**
 
 Git is a (free) version control system (tool) for managing source code changes
 - Save code snapshots ("commits");
@@ -51,7 +51,7 @@ With Git, you can easily roll back to older code snapshots or develop new featur
 
 ---
 
-### **GitHub**
+### **II. GitHub**
 
 GitHub is a cloud Git repository & services provider. Store & manage Git repositories.
 
@@ -75,7 +75,7 @@ GitHub is a cloud Git repository & services provider. Store & manage Git reposit
 
 ---
 
-### **Git Repositories**
+### **III. Git Repositories**
 
 1. **Git features can be used in projects with Git repositories:**
 - A repository is a folder used by Git to track all changes of a given project: Git commands require a repository in a project;
@@ -92,7 +92,7 @@ GitHub is a cloud Git repository & services provider. Store & manage Git reposit
 
 ---
 
-### **Working with Commits**
+### **IV. Working with Commits**
 
 Commits are "code snapshots".
 
@@ -121,7 +121,7 @@ git reset --hard <id>
 
 ---
 
-### **Understanding Staging**
+### **V. Understanding Staging**
 
 Staging controls which changes are part of a commit
 - With staging, you can make sure that not all code changes made are added to a snapshot;
@@ -131,7 +131,7 @@ Staging controls which changes are part of a commit
 
 ---
 
-### **Key Commands**
+### **VI. Key Commands**
 
 |Commands|Descriptions|
 |:--|:--|
@@ -148,7 +148,7 @@ Staging controls which changes are part of a commit
 
 ---
 
-### **Forking and Pull Requests**
+### **VII. Forking and Pull Requests**
 
 1. **Repository Forking:**
 - Creates a standalone copy of a repository;
@@ -163,7 +163,7 @@ Staging controls which changes are part of a commit
 
 ---
 
-### **GitHub Actions Fundamentals**
+### **VIII. GitHub Actions Fundamentals**
 
 Key Elements: Workflows, Jobs, Steps.
 
@@ -188,7 +188,7 @@ Key Elements: Workflows, Jobs, Steps.
 
 ---
 
-### **Actions**
+### **IX. Actions**
 
 1. **Action:**
 - A (custom) application that performs a (typically complex) frequently repeated task;
@@ -208,7 +208,7 @@ Key Elements: Workflows, Jobs, Steps.
 
 ---
 
-### **Cancelling and Skipping Workflow Runs**
+### **X. Cancelling and Skipping Workflow Runs**
 
 1. **Cancelling:**
 - By default, Workflows get cancelled if Jobs fail;
@@ -224,7 +224,7 @@ Key Elements: Workflows, Jobs, Steps.
 
 ---
 
-### **Job Data and Outputs**
+### **XI. Job Data and Outputs**
 
 1. **Artifacts:**
 - Jobs often product assets that should be shared or analyzed;
@@ -249,7 +249,7 @@ Key Elements: Workflows, Jobs, Steps.
 
 ---
 
-### **Environment Variables and Secrets**
+### **XII. Environment Variables and Secrets**
 
 1. **Environment Variables:**
 - Dynamic values used in code (e.g., database name);
@@ -271,9 +271,11 @@ Key Elements: Workflows, Jobs, Steps.
 - Environments allow you to set up extra protection rules;
 - You can also store Secrets on Environment-level.
 
+#### [🔼 Back to top](#github-actions)
+
 ---
 
-### **Controlling Execution Flow**
+### **XIII. Controlling Execution Flow**
 
 1. **Conditional Jobs & Steps:**
 - Control Step or Job execution with if & dynamic expressions
@@ -309,7 +311,7 @@ Key Elements: Workflows, Jobs, Steps.
 
 ---
 
-### **Using Containers**
+### **XIV. Using Containers**
 
 1. **Containers:**
 - Packages of code + execution environment;
@@ -335,7 +337,7 @@ Key Elements: Workflows, Jobs, Steps.
 
 ---
 
-### **Building Custom Actions**
+### **XV. Building Custom Actions**
 
 1. **Simplify Workflow Steps:**
 - Instead of writing multiple (possibly very complex) Step definitions, you can build and use a single custom Action;
@@ -349,7 +351,7 @@ Key Elements: Workflows, Jobs, Steps.
 
 ---
 
-### **Types of Custom Actions**
+### **XVI. Types of Custom Actions**
 
 1. **What & Why?**
 - Simplify Workflows & avoid repeated Steps;
@@ -380,7 +382,7 @@ Key Elements: Workflows, Jobs, Steps.
 
 ---
 
-### **Permissions and Security**
+### **XVII. Permissions and Security**
 
 1. **Script Injection:**
 - A value, set outside a Workflow, is used in a Workflow;
@@ -401,7 +403,7 @@ Key Elements: Workflows, Jobs, Steps.
 
 ---
 
-### **Links and Commands**
+### **XVIII. Links and Commands**
 
 ```
 git add remote https://vilislavkalenski@github.com/...
