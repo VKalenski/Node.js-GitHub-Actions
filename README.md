@@ -411,10 +411,10 @@ git remote set-url origin https://...@gutgub
 git push --set-upstream origin main
 ```
 
-https://github.com/actions/cache
-https://github.com/actions/checkout
-https://github.com/marketplace/actions/checkout
-https://github.com/actions/runner-images/blob/main/images/linux/Ubuntu2204-Readme.md
-https://docs.github.com/en/actions/using-github-hosted-runners/about-github-hosted-runners/about-github-hosted-runners#supported-software
+- https://github.com/actions/cache
+- https://github.com/actions/checkout
+- https://github.com/marketplace/actions/checkout
+- https://github.com/actions/runner-images/blob/main/images/linux/Ubuntu2204-Readme.md
+- https://docs.github.com/en/actions/using-github-hosted-runners/about-github-hosted-runners/about-github-hosted-runners#supported-software
 
 #### [🔼 Back to top](#github-actions)
